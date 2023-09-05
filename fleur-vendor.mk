@@ -67,15 +67,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/fleur/proprietary/lib64/vendor.xiaomi.hardware.displayfeature@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/vendor.xiaomi.hardware.displayfeature@1.0.so \
     vendor/xiaomi/fleur/proprietary/lib64/vendor.xiaomi.hardware.fingerprintextension@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/vendor.xiaomi.hardware.fingerprintextension@1.0.so \
     vendor/xiaomi/fleur/proprietary/lib64/vendor.xiaomi.hardware.micharge@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/vendor.xiaomi.hardware.micharge@1.0.so \
-    vendor/xiaomi/fleur/proprietary/odm/etc/build_fleur.prop:$(TARGET_COPY_OUT_ODM)/etc/build_fleur.prop \
-    vendor/xiaomi/fleur/proprietary/odm/etc/build_fleurp.prop:$(TARGET_COPY_OUT_ODM)/etc/build_fleurp.prop \
-    vendor/xiaomi/fleur/proprietary/odm/etc/build_miel.prop:$(TARGET_COPY_OUT_ODM)/etc/build_miel.prop \
-    vendor/xiaomi/fleur/proprietary/odm/etc/build_mielp.prop:$(TARGET_COPY_OUT_ODM)/etc/build_mielp.prop \
-    vendor/xiaomi/fleur/proprietary/odm/etc/vintf/manifest_dsds.xml:$(TARGET_COPY_OUT_ODM)/etc/vintf/manifest_dsds.xml \
-    vendor/xiaomi/fleur/proprietary/odm/etc/vintf/manifest_dsds_se.xml:$(TARGET_COPY_OUT_ODM)/etc/vintf/manifest_dsds_se.xml \
-    vendor/xiaomi/fleur/proprietary/odm/etc/vintf/manifest_qsqs.xml:$(TARGET_COPY_OUT_ODM)/etc/vintf/manifest_qsqs.xml \
-    vendor/xiaomi/fleur/proprietary/odm/etc/vintf/manifest_ss.xml:$(TARGET_COPY_OUT_ODM)/etc/vintf/manifest_ss.xml \
-    vendor/xiaomi/fleur/proprietary/odm/etc/vintf/manifest_ss_se.xml:$(TARGET_COPY_OUT_ODM)/etc/vintf/manifest_ss_se.xml \
     vendor/xiaomi/fleur/proprietary/odm/etc/vintf/manifest_tsts.xml:$(TARGET_COPY_OUT_ODM)/etc/vintf/manifest_tsts.xml \
     vendor/xiaomi/fleur/proprietary/system_ext/etc/a2dp_audio_policy_configuration.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/a2dp_audio_policy_configuration.xml \
     vendor/xiaomi/fleur/proprietary/system_ext/etc/a2dp_in_audio_policy_configuration.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/a2dp_in_audio_policy_configuration.xml \
