@@ -366,7 +366,7 @@
       tls_version="2"
       sha_version="1"
   />
-<!--Peru. Auto config HSLP based on IMSI -->
+  <!--Peru. Auto config HSLP based on IMSI -->
   <supl_profile name="Entel"
       addr=""
       port="7275"
@@ -822,6 +822,10 @@
         enable/disable SUPL raw data dump to main log (logcat)
         available value: true, false (default)
 
+    tc10_supl_1_0_disable:
+        disable suplv1 if suplv1 not selected by framework (tc10 requirement)
+        available value: true, false(default)
+
     allow_ni_for_gps_off:
         From Android 10, GVC (GNSS Visibility Control) is introduced.
         And GVC is mandatory to get the GMS License.
@@ -998,6 +1002,7 @@
     tls_reuse_enable="false"
     imsi_cache_enable="false"
     supl_raw_data_enable="false"
+    tc10_supl_1_0_disable="false"
     allow_ni_for_gps_off="false"
     force_otdoa_assist_req="false"
     up_lppe_enable="true"
@@ -1073,7 +1078,7 @@
       v6="310230"
       v7="310240"
       v8="310250"
-      v9="31026"
+      v9="310260"
       v10="310270"
       v11="310300"
       v12="310310"
@@ -1159,18 +1164,30 @@
       v3="71606"
     />
   </carrier_mapping>
-   <carrier_mapping name="CT">
+  <carrier_mapping name="CMCC">
      <mcc_mnc
-      v1="46000"
-      v2="46002"
-      v3="46004"
-      v4="46007"
-      v5="46008"
-      v6="46001"
-      v7="46006"
-      v8="46009"
-      v9="46003"
-      v10="46011"
+       v1="46000"
+       v2="46002"
+       v3="46007"
      />
-  </carrier_mapping>
+   </carrier_mapping>
+  <carrier_mapping name="CT">
+     <mcc_mnc
+       v1="46011"
+       v2="46003"
+       v3="46005"
+     />
+   </carrier_mapping>
+  <carrier_mapping name="CU">
+     <mcc_mnc
+       v1="46001"
+       v2="46006"
+       v3="46009"
+     />
+   </carrier_mapping>
+  <carrier_mapping name="CBN">
+     <mcc_mnc
+       v1="46015"
+     />
+   </carrier_mapping>
 </mtk_agps_profiles>

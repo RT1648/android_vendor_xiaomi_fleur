@@ -26,6 +26,12 @@
                 Use FFF or FF for all operators under same country
                 Ex: 460 FFF means all operators in China
     -->
+    <!-- Add for Russia Megafon operator -->
+    <EccEntry Ecc="101" Category="1" Condition="2" Plmn="250 02"/>
+    <EccEntry Ecc="102" Category="4" Condition="2" Plmn="250 02"/>
+    <EccEntry Ecc="103" Category="2" Condition="2" Plmn="250 02"/>
+    <EccEntry Ecc="104" Category="0" Condition="2" Plmn="250 02"/>
+
     <EccEntry Ecc="150" Category="0" Condition="2" Plmn="284 03"/>
     <EccEntry Ecc="160" Category="0" Condition="2" Plmn="284 03"/>
     <EccEntry Ecc="166" Category="0" Condition="2" Plmn="284 03"/>
@@ -226,12 +232,9 @@
     <EccEntry Ecc="186110" Category="0" Condition="1" Plmn="440 89"/>
     <EccEntry Ecc="186118" Category="0" Condition="1" Plmn="440 89"/>
     <EccEntry Ecc="186119" Category="0" Condition="1" Plmn="440 89"/>
-    <EccEntry Ecc="110" Category="1" Condition="1" Plmn="440 20"/>
-    <EccEntry Ecc="118" Category="8" Condition="1" Plmn="440 20"/>
-    <EccEntry Ecc="119" Category="6" Condition="1" Plmn="440 20"/>
-    <EccEntry Ecc="110" Category="1" Condition="1" Plmn="440 11"/>
-    <EccEntry Ecc="118" Category="8" Condition="1" Plmn="440 11"/>
-    <EccEntry Ecc="119" Category="6" Condition="1" Plmn="440 11"/>
+    <EccEntry Ecc="110" Category="1" Condition="1" Plmn="440 FFF"/>
+    <EccEntry Ecc="118" Category="8" Condition="1" Plmn="440 FFF"/>
+    <EccEntry Ecc="119" Category="6" Condition="1" Plmn="440 FFF"/>
     <!-- K19A code for HQ-157176 by yefeng at 20211008 start -->
     <EccEntry Ecc="101" Category="0" Condition="3" Plmn="257 01"/>
     <EccEntry Ecc="102" Category="0" Condition="3" Plmn="257 01"/>
@@ -287,7 +290,7 @@
     <EccEntry Ecc="118" Category="0" Condition="1" Plmn="460 FFF"/>
     <EccEntry Ecc="999" Category="0" Condition="2" Plmn="460 FFF"/>
     <EccEntry Ecc="118" Category="0" Condition="2" Plmn="466 FFF"/>
-    
+
     <EccEntry Ecc="911" Category="0" Condition="1" Plmn="466 11"/>
     <EccEntry Ecc="112" Category="0" Condition="1" Plmn="466 11"/>
     <EccEntry Ecc="110" Category="0" Condition="2" Plmn="466 11"/>
@@ -314,6 +317,7 @@
     <EccEntry Ecc="112" Category="0" Condition="1" Plmn="466 89"/>
     <EccEntry Ecc="110" Category="0" Condition="2" Plmn="466 89"/>
     <EccEntry Ecc="119" Category="0" Condition="2" Plmn="466 89"/>
+    <EccEntry Ecc="118" Category="0" Condition="2" Plmn="466 89"/>
 
     <EccEntry Ecc="110" Category="1" Condition="1" Plmn="466 97"/>
     <EccEntry Ecc="911" Category="0" Condition="1" Plmn="466 97"/>
@@ -351,6 +355,8 @@
     <EccEntry Ecc="133" Category="1" Condition="1" Plmn="730 FFF"/>
     <EccEntry Ecc="112" Category="1" Condition="1" Plmn="730 FFF"/>
     <EccEntry Ecc="911" Category="1" Condition="1" Plmn="730 FFF"/>
+
+    <EccEntry Ecc="110" Category="0" Condition="1" Plmn="736 FFF"/>
 
     <!--[SWR0011118][Entel][CL][Modem]UE must support Emergency call over IMS-->>
     <EccEntry Ecc="131" Category="2" Condition="3" Plmn="730 01"/>
@@ -425,16 +431,13 @@
     <EccEntry Ecc="911" Category="0" Condition="1" Plmn="302 FFF"/>
     <EccEntry Ecc="999" Category="0" Condition="0" Plmn="302 FFF"/>
 
-    <EccEntry Ecc="128" Category="0" Condition="2" Plmn="704 FFF"/>
-
     <EccEntry Ecc="911" Category="0" Condition="1" Plmn="334 FFF"/>
     <EccEntry Ecc="112" Category="0" Condition="1" Plmn="334 FFF"/>
 
     <!-- Peru operator-->
     <EccEntry Ecc="112" Category="0" Condition="1" Plmn="716 FFF"/>
     <EccEntry Ecc="911" Category="0" Condition="1" Plmn="716 FFF"/>
-    <EccEntry Ecc="105" Category="0" Condition="1" Plmn="716 06"/>
-    <EccEntry Ecc="105" Category="0" Condition="1" Plmn="716 10"/>
+    <EccEntry Ecc="105" Category="0" Condition="1" Plmn="716 FFF"/>
     <EccEntry Ecc="000" Category="0" Condition="0" Plmn="716 17"/>
 
     <EccEntry Ecc="999" Category="0" Condition="1" Plmn="234 FFF"/>
@@ -478,10 +481,17 @@
 
     <EccEntry Ecc="911" Category="0" Condition="1" Plmn="420 FFF"/>
     <EccEntry Ecc="112" Category="0" Condition="1" Plmn="420 FFF"/>
-    <EccEntry Ecc="999" Category="0" Condition="1" Plmn="420 FFF"/>
-    <EccEntry Ecc="998" Category="0" Condition="1" Plmn="420 FFF"/>
-    <EccEntry Ecc="997" Category="0" Condition="1" Plmn="420 FFF"/>
-    <EccEntry Ecc="993" Category="0" Condition="1" Plmn="420 FFF"/>
+    <EccEntry Ecc="999" Category="0" Condition="1" Plmn="420 01"/>
+    <EccEntry Ecc="998" Category="0" Condition="1" Plmn="420 01"/>
+    <EccEntry Ecc="997" Category="0" Condition="1" Plmn="420 01"/>
+    <EccEntry Ecc="996" Category="0" Condition="1" Plmn="420 01"/>
+    <EccEntry Ecc="994" Category="0" Condition="1" Plmn="420 01"/>
+    <EccEntry Ecc="999" Category="0" Condition="1" Plmn="420 03"/>
+    <EccEntry Ecc="998" Category="0" Condition="1" Plmn="420 03"/>
+    <EccEntry Ecc="997" Category="0" Condition="1" Plmn="420 03"/>
+    <EccEntry Ecc="996" Category="0" Condition="1" Plmn="420 03"/>
+    <EccEntry Ecc="994" Category="0" Condition="1" Plmn="420 03"/>
+
 
     <!-- Add for Oman operator -->
     <EccEntry Ecc="999" Category="0" Condition="1" Plmn="422 FFF"/>
@@ -518,9 +528,7 @@
     <EccEntry Ecc="133" Category="0" Condition="1" Plmn="706 FFF"/>
     <EccEntry Ecc="911" Category="0" Condition="1" Plmn="706 FFF"/>
 
-    <EccEntry Ecc="115" Category="0" Condition="1" Plmn="710 FFF"/>
     <EccEntry Ecc="118" Category="0" Condition="1" Plmn="710 FFF"/>
-    <EccEntry Ecc="128" Category="0" Condition="1" Plmn="710 FFF"/>
     <EccEntry Ecc="911" Category="0" Condition="1" Plmn="710 FFF"/>
 
     <EccEntry Ecc="103" Category="0" Condition="1" Plmn="714 FFF"/>
@@ -576,7 +584,11 @@
     <EccEntry Ecc="112" Category="0" Condition="1" Plmn="231 01"/>
     <EccEntry Ecc="911" Category="0" Condition="1" Plmn="231 01"/>
 
-    <EccEntry Ecc="112" Category="0" Condition="1" Plmn="214 FFF"/>
+    <EccEntry Ecc="112" Category="0" Condition="1" Plmn="214 01"/>
+    <EccEntry Ecc="112" Category="0" Condition="1" Plmn="214 03"/>
+    <EccEntry Ecc="112" Category="0" Condition="1" Plmn="214 04"/>
+    <EccEntry Ecc="112" Category="1" Condition="1" Plmn="214 05"/>
+    <EccEntry Ecc="112" Category="1" Condition="1" Plmn="214 07"/>
     <EccEntry Ecc="911" Category="0" Condition="1" Plmn="214 FFF"/>
 
     <EccEntry Ecc="112" Category="0" Condition="1" Plmn="208 01"/>
@@ -587,9 +599,6 @@
     <!-- K19A code for HQ-132212 by yefeng at 20210525 start -->
     <EccEntry Ecc="123" Category="0" Condition="1" Plmn="732 111"/>
     <EccEntry Ecc="123" Category="0" Condition="1" Plmn="732 103"/>
-    <!-- K19A code for HQ-132212 by yefeng at 20210525 end -->
-    <EccEntry Ecc="112" Category="0" Condition="1" Plmn="716 10"/>
-    <EccEntry Ecc="911" Category="0" Condition="1" Plmn="716 10"/>
     <!-- K19A code for HQ-154959 by yefeng at 20211208 start -->
     <EccEntry Ecc="112" Category="0" Condition="1" Plmn="432 FFF"/>
     <EccEntry Ecc="110" Category="1" Condition="2" Plmn="432 FFF"/>
@@ -618,7 +627,6 @@
     <!-- K19A code for HQ-121237 by yefeng at 20210413 start -->
     <EccEntry Ecc="112" Category="0" Condition="1" Plmn="732 360"/>
     <EccEntry Ecc="911" Category="0" Condition="1" Plmn="732 360"/>
-    <EccEntry Ecc="123" Category="0" Condition="1" Plmn="732 360"/>
     <!-- K19A code for HQ-121237 by yefeng at 20210413 end -->
 
     <EccEntry Ecc="150" Category="0" Condition="2" Plmn="230 01"/>
@@ -635,14 +643,10 @@
     <EccEntry Ecc="911" Category="0" Condition="1" Plmn="706 04"/>
     <EccEntry Ecc="122" Category="0" Condition="1" Plmn="706 04"/>
 
-    <EccEntry Ecc="115" Category="0" Condition="1" Plmn="710 30"/>
     <EccEntry Ecc="118" Category="0" Condition="1" Plmn="710 30"/>
-    <EccEntry Ecc="128" Category="0" Condition="1" Plmn="710 30"/>
     <EccEntry Ecc="911" Category="0" Condition="1" Plmn="710 30"/>
 
-    <EccEntry Ecc="115" Category="0" Condition="1" Plmn="710 300"/>
     <EccEntry Ecc="118" Category="0" Condition="1" Plmn="710 300"/>
-    <EccEntry Ecc="128" Category="0" Condition="1" Plmn="710 300"/>
     <EccEntry Ecc="911" Category="0" Condition="1" Plmn="710 300"/>
 
     <EccEntry Ecc="103" Category="0" Condition="1" Plmn="714 02"/>
@@ -657,9 +661,6 @@
     <EccEntry Ecc="155" Category="0" Condition="1" Plmn="714 02"/>
     <EccEntry Ecc="311" Category="0" Condition="1" Plmn="714 02"/>
     <EccEntry Ecc="911" Category="0" Condition="1" Plmn="714 02"/>
-
-    <EccEntry Ecc="112" Category="0" Condition="1" Plmn="716 06"/>
-    <EccEntry Ecc="911" Category="0" Condition="1" Plmn="716 06"/>
 
     <EccEntry Ecc="911" Category="0" Condition="1" Plmn="748 07"/>
 
@@ -688,6 +689,8 @@
     <EccEntry Ecc="999" Category="0" Condition="1" Plmn="232 10"/>
     <EccEntry Ecc="999" Category="0" Condition="1" Plmn="232 14"/>
     <EccEntry Ecc="999" Category="0" Condition="1" Plmn="525 FFF"/>
+    <EccEntry Ecc="995" Category="2" Condition="1" Plmn="525 03"/>
+    <EccEntry Ecc="995" Category="2" Condition="1" Plmn="525 05"/>
     <!-- K19A code for HQ-146023 by yefeng at 20210719 end -->
 
     <!-- Add for UA operators -->
@@ -743,15 +746,11 @@
     <EccEntry Ecc="19" Category="0" Condition="2" Plmn="604 FFF"/>
     <EccEntry Ecc="177" Category="0" Condition="2" Plmn="604 FFF"/>
 
-     <!--add for Nigeria-->
-    <EccEntry Ecc="122" Category="0" Condition="1" Plmn="621 20"/>
-    <EccEntry Ecc="767" Category="0" Condition="1" Plmn="621 20"/>
-    <EccEntry Ecc="122" Category="0" Condition="1" Plmn="621 30"/>
-    <EccEntry Ecc="767" Category="0" Condition="1" Plmn="621 30"/>
-    <EccEntry Ecc="122" Category="0" Condition="2" Plmn="621 50"/>
+    <!-- Add for Nigeria -->
+    <EccEntry Ecc="767" Category="0" Condition="2" Plmn="621 20"/>
     <EccEntry Ecc="767" Category="0" Condition="2" Plmn="621 50"/>
-    <EccEntry Ecc="122" Category="0" Condition="2" Plmn="621 60"/>
     <EccEntry Ecc="767" Category="0" Condition="2" Plmn="621 60"/>
+    <EccEntry Ecc="767" Category="0" Condition="2" Plmn="621 30"/>
 
     <!-- Add for Pakistan operator -->
     <EccEntry Ecc="112" Category="0" Condition="1" Plmn="238 FFF"/>
@@ -767,4 +766,8 @@
 
     <!--add for Kenya-->
     <EccEntry Ecc="999" Category="0" Condition="1" Plmn = "639 FFF"/>
+
+    <!-- Add for slovenia-->
+    <EccEntry Ecc="113" Category="0" Condition="1" Plmn = "293 40" />
+    <EccEntry Ecc="113" Category="0" Condition="2" Plmn = "293 70" />
 </EccTable>

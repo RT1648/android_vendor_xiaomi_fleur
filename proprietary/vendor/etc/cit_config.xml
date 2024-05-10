@@ -10,6 +10,9 @@
   <item name="Camera">
     <param key="TwinCameraType" value="switch"/>
   </item>
+  <item name="AutoTest">
+    <param key="camera_param" value="back_main,front_main,back_ultra,back_macro,back_depth"/>
+  </item>
   <item name="Charge">
     <param key="SupportCurrent" value="true"/>
   </item>
@@ -38,6 +41,7 @@
   <item name="SoftVersion">
     <param key="isShowIFAA_FIDO_Widevine_Keybox" value="true"/>
    <param key="isMatchBoard_Tp" value="false"/>
+   <param key="memoryType" value="ufs"/>
   </item>
   <item name="OTG">
     <param key="OtgVendorFile" value="/sys/devices/platform/mt_usb/musb-hdrc/usb1/1-1/idVendor"/>
