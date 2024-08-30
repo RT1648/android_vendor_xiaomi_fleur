@@ -108,24 +108,6 @@ prebuilt_etc_xml {
 }
 
 prebuilt_etc_xml {
-	name: "gnss-mediatek",
-	owner: "xiaomi",
-	src: "proprietary/vendor/etc/vintf/manifest/gnss-mediatek.xml",
-	filename_from_src: true,
-	sub_dir: "vintf/manifest",
-	soc_specific: true,
-}
-
-prebuilt_etc_xml {
-	name: "gnss@2.1-mtk-service",
-	owner: "xiaomi",
-	src: "proprietary/vendor/etc/vintf/manifest/gnss@2.1-mtk-service.xml",
-	filename_from_src: true,
-	sub_dir: "vintf/manifest",
-	soc_specific: true,
-}
-
-prebuilt_etc_xml {
 	name: "lbs_hidl_service@1.0",
 	owner: "xiaomi",
 	src: "proprietary/vendor/etc/vintf/manifest/lbs_hidl_service@1.0.xml",
